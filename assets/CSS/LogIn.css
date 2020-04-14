@@ -1,0 +1,60 @@
+
+/*Navbar*/
+		nav{
+			background-color: transparent;
+			z-index: 2;
+		}
+
+		.nav-item{
+			padding-right: 10px;
+		}
+
+/*Nav background*/
+/*--------------------------*/
+		.overlay{
+			height: 100%;
+			z-index: 1;
+			background-color: #00147D;
+			opacity: 0.8;
+		}
+
+		.sub-header{
+		    background: url(../img/wave.jpg);
+		    background-position: center;
+		    background-size: cover;
+		    z-index: 0;
+		    padding: 0;
+		    margin-top: -180px;
+		    height: 280px;
+		}
+
+/*--------------------------*/
+
+		.logintitle{
+			margin-top: 10px;
+			margin: 60px auto;
+			font-family: 'Permanent Marker', cursive;
+			font-size: 60px;
+			color: #00147D;
+		}
+
+		.loginform{
+			border: solid 2px grey;
+			padding:40px;
+			border-radius: 20px;
+			background:lightgrey;
+			font-family: 'Caudex', serif;
+			box-shadow: 1px 3px 3px gray;
+		}
+
+		.submitbutton{
+			background-color: #00147D;
+			border-color: #00147D;
+		}
+
+
+
+
+		footer{
+			margin-top: 100px;
+		}

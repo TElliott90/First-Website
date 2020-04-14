@@ -1,0 +1,95 @@
+
+		.AboutUs_title{
+			text-align: center;
+			color: white;
+		    padding-top: 160px;
+		    padding-right: 22px;
+		}
+
+/*Navbar position*/
+
+		.mr-auto, .mx-auto {
+		    margin-left: auto!important;
+		}
+
+		.navbar-brand:hover{
+			opacity:0.8;
+		}
+
+		.overlay{
+			height: 100%;
+			z-index: 1;
+			background-color: #00147D;
+			opacity: 0.8;
+		}
+
+		nav{
+			background-color: transparent;
+			z-index: 2;
+		}
+
+		.nav-item{
+			padding-right: 10px;
+		}
+
+
+		.sub-header{
+			-webkit-clip-path: polygon(0 0, 100% 0, 100% 86%, 57% 86%, 49% 100%, 41% 86%, 0 86%);
+			clip-path: polygon(0 0, 100% 0, 100% 86%, 57% 86%, 49% 100%, 41% 86%, 0 86%);
+		    background: url(../img/team.jpg);
+		    background-position: center;
+		    background-size: cover;
+		    z-index: 0;
+		    padding: 0;
+		    margin-top: -109px;
+		    height: 300px;
+
+		}
+
+		.styledoutol{
+			list-style-type: none
+		}
+
+		.aboutusimg {
+			width: 250px;
+			height: 250px;
+			margin-left: 480px;
+
+		}
+
+		.aboutustext{
+		line-height: 40px;	
+		}
+
+		.AboutUsSubheadings{
+			font-family: 'Permanent Marker', cursive;
+			color: #00147D;
+			font-size: 45px;
+		}
+
+		.text-center{
+			text-align: center;
+			margin-top: 25px;
+			padding: 0 auto;
+			content: 0 auto;
+			border: 0 auto;
+		}
+
+		.tedvideo{
+			margin-top: 50px;
+			margin-left: auto;
+			margin-right: auto;
+		  
+		}
+
+
+/*Footer*/
+
+		.smicons{
+			padding left: 50px;
+		}
+
+		.contactform{
+			padding: 70px 70px;
+
+		}

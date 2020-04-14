@@ -1,0 +1,75 @@
+
+/*Navbar*/
+		nav{
+			background-color: transparent;
+			z-index: 2;
+		}
+
+		.nav-item{
+			padding-right: 10px;
+		}
+
+/*Nav background*/
+/*--------------------------*/
+		.overlay{
+			height: 100%;
+			z-index: 1;
+			background-color: #00147D;
+			opacity: 0.8;
+		}
+
+		.sub-header{
+		    background: url(../img/wave.jpg);
+		    background-position: center;
+		    background-size: cover;
+		    z-index: 0;
+		    padding: 0;
+		    margin-top: -180px;
+		    height: 280px;
+}
+
+/*--------------------------*/
+
+		.ContactUsPageTitle{
+			margin-top: 10px;
+			margin: 60px auto;
+			font-family: 'Permanent Marker', cursive;
+			font-size: 60px;
+			color: #00147D;
+		}
+
+		.signupform{
+			margin-top: 50px;
+			border: solid 2px grey;
+			padding: 42px 85px;
+			border-radius: 20px;
+			background:lightgrey;
+			font-family: 'Caudex', serif;
+			box-shadow: 1px 3px 3px gray;
+		}
+
+
+		.form-control{
+			padding: 0.375rem 6.75rem;
+		}
+
+		.enterbutton{
+			margin-left: 500px;
+			box-shadow: 0 10px 16px 0 rgba(0,0,0,0.1)!important;
+			padding: 7px 47px;
+			font-size: 12px;
+			background-color: #00147D;
+			border-color: #00147D; 
+		}
+
+		.enterbutton:hover{
+			background-color:white;
+			color:green;
+				}
+
+
+
+
+		footer{
+			margin-top: 100px;
+		}

@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log In</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	
+	<!-- FontAwesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+	<!-- Google Fonts Font -->
+	<link href="https://fonts.googleapis.com/css?family=Caudex" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
+<!-- CSS position within head important! -->
+	<link rel= "stylesheet" type= "text/css" href="assets/CSS/base_project.css">
+	<link rel= "stylesheet" type= "text/css" href="assets/CSS/LogIn.css">
+
+</head>
+
+
+
+<body>
+
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark" id="top">
+	<a class="navbar-brand" href="Projectindex.html"><img class="homeimg" src="assets/img/EMONDimg.svg" alt="EMOND"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			    <span class="navbar-toggler-icon"></span>
+		</button>
+
+			  <div class="collapse navbar-collapse navlinks" id="navbarSupportedContent">
+			    <ul class="navbar-nav mr-0 ml-auto">
+
+			      	<li class="nav-item active">
+			        <a class="nav-link" href="Projectindex.html">Home<span class="sr-only">(current)</span></a>
+			      	</li>
+
+			      	<li class="nav-item">
+			       	<a class="nav-link" href="ProjectTestimonials.html">Testimonials</a>
+			      	</li>
+
+			      	<li class="nav-item">
+			       	<a class="nav-link" href="ProjectAboutUs.html">About Us</a>
+			      	</li>
+
+			      	<li class="nav-item">
+			      	<a class="nav-link" href="ProjectContactUs.html">Contact Us</a>
+			      	</li>
+
+			     </ul>
+			    	<a role="button" href="ProjectLogin.html" class="btn btn-outline-light mr-2 loginbutton">
+			     		<strong>Login</strong></a>
+			  		<a role="button" href="CreateAccountProject.html" class="btn btn-light createaccountbutton">
+			     		<strong>Create an account</strong></a>
+			   </div> 
+
+
+		
+	
+</nav>
+
+<!-- ---------For nav background--------------- -->
+			<header class="sub-header">
+				<div class="overlay">
+					<div class="container">
+						<div class="row">
+							<div class = "col-12">
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+<!-- ------------------------------------------ -->
+
+
+<section>
+
+	<div class="container">
+		<div class="row">
+			<div class = "col-12">
+			<h1 class="text-center logintitle">Login</h1>
+			</div>
+		</div>
+	</div>
+
+
+<div class="container">
+	<div class="row">
+		<form class="text-center mx-auto loginform">
+
+			<div class="form-group">
+			    <label 	
+			    	for="exampleInputEmail1"
+			    	>Email address
+			    </label>
+			    
+			    <input 
+			    	type="email" 
+			    	class="form-control" 
+			    	id="exampleInputEmail1" 
+			    	aria-describedby="emailHelp" 
+			    	placeholder="Enter email">
+			    
+			    <small 
+			    	id="emailHelp" 
+			    	class="form-text text-muted"
+			    	>We'll never share your email with anyone else.
+			    </small>
+			</div>
+
+			<div class="form-group">
+			    <label 
+			    	for="exampleInputPassword1"
+			    	>Password
+			    </label>
+
+			    <input 
+			    	type="password" 
+			    	class="form-control" 
+			    	id="exampleInputPassword1" 
+			    	placeholder="Password">
+			</div>
+
+			<div class="form-group form-check">
+			    <input 
+			    	type="checkbox" 
+			    	class="form-check-input" 
+			    	id="exampleCheck1">
+
+			    <label 
+			    	class="form-check-label" 
+			    	for="exampleCheck1">Remember Me
+			    </label>
+			</div>
+
+			<button type="submit" class="btn btn-primary submitbutton">Submit</button>
+		</form>
+	</div>
+</div>
+	
+</section>
+
+
+<!-- Footer -->
+<footer>
+
+	<h2 class="text-center stayup"><strong> Stay Updated! </strong></h2>
+			<form> 
+				<div class="col-5 mx-auto">
+					<label class = "white" for="name"></label>
+					<input type="email" class="form-control" id="name" placeholder="Your Email" required>
+					<div class="text-center">
+						<button type="button" class="btn btn-primary mt-4 mx-auto submit">SUBMIT</button>
+					</div>
+		 		</div>
+			</form>
+
+	<div class="flex  w-full bottomfooter">
+		<div class=" mx-auto">
+			<a class="mx-2" href="http://facebook.com"><i class="fab fa-facebook-f "></i></a>
+			<a class="mx-2" href="http://twitter.com"><i class="fab fa-twitter"></i></a>
+			<a class="mx-2" href="http://instagram.com"><i class="fab fa-instagram"></i></a>
+			<a class="mx-2" href="http://pinterest.com"><i class="fab fa-pinterest-p"></i></a>
+		</div>
+	
+	<div class="mx-auto text-center">
+	 	Emond 2019. All rights reserved
+	</div>
+
+	<div class="mx-auto">
+		<a type="email" style="opacity: 0.4" href="mailto:info@emond.com">info@emond.com</a>
+	</div>
+
+
+
+
+</footer>
+
+<!-- JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+
+<!-- JS for smooth scrolling effect -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script type="text/javascript">
+	function LogIn() {
+		alert('Welcome')
+	}    
+
+
+			// LOGIN Details
+// -----------------------------------	
+	let email = 'Dean@Codezacademy.com';
+	let password = 'Codezacademy';
+
+// -----------------------------------
+
+	function login() {
+		let inputEmail = document.getElementById('inputEmail').value
+		let inputPassword = document.getElementById('inputPassword').value
+		console.log(inputPassword)
+
+		if(email == inputEmail){
+			if(password == inputPassword){
+				window.location.href = "Projectindex.html"
+			} 
+			else {
+				alert('Your Password is Incorrect')
+			}
+			else {
+				alert("Your Email isn't found in our records")
+			}
+	}
+
+</script>
+
+
+</body>
+
+
+</html>
